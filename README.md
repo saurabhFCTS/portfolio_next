@@ -1,6 +1,9 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
+### How to create Next.js Project 
+npx create-next-app@latest
+npm install @mui/material-nextjs @emotion/cache @emotion/react @emotion/styled
 
 First, run the development server:
 
