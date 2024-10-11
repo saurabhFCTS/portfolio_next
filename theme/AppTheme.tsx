@@ -14,12 +14,33 @@ const roboto = Roboto({
 const themeOptions: ThemeOptions = {
     typography: {
         fontFamily: roboto.style.fontFamily,
-        fontSize: 12
+        fontSize: 12,
+      h1: {
+      fontSize: "2.5rem",
+      fontWeight: 700,
+    },
+    h2: {
+      fontSize: "2rem",
+      fontWeight: 600,
+    },
+    button: {
+      textTransform: "none", // Prevents uppercase by default on buttons
+    },
     }, 
     palette: {
+     primary: {
+      main: "#1976d2", // Custom primary color
+    },
+     secondary: {
+      main: "#9c27b0", // Custom secondary color
+    },}
         background: {
             default: "#FF00FF"
         }
+     , text: {
+      primary: "#333333", // Text color for primary text
+      secondary: "#555555", // Text color for secondary text
+    },
     }
 };
 
