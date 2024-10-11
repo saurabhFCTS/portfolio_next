@@ -33,7 +33,7 @@ const themeOptions: ThemeOptions = {
     },
      secondary: {
       main: "#9c27b0", // Custom secondary color
-    },}
+    },
         background: {
             default: "#FF00FF"
         }
